@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <Version>0.1</Version>
+    <FileVersion>0.1</FileVersion>
+    <Product>MyLibrary</Product>
+    <Company></Company>
+    <Copyright>Copyright (C) 2020 T. Graf</Copyright>
+    <Authors>T. Graf</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/tngraf/CSharp-GitHub-Example/blob/master/LICENSE</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tngraf/CSharp-GitHub-Example/blob/master/LICENSE</RepositoryUrl>
+    <PackageTags>Demo project</PackageTags>
+  </PropertyGroup>
+</Project>

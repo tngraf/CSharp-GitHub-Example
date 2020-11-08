@@ -26,7 +26,7 @@ jobs:
     - name: Test
       run: |
         dotnet test --no-restore --verbosity normal --collect:"XPlat Code Coverage"
-        find ./MyLibraryTest/TestResults -type f -name coverage.cobertura.xml -exec cp . \;
+        find ./MyLibraryTest/TestResults -type f -name coverage.cobertura.xml -exec cp {} . \;
         ls 
         #codecov -v -f "MyLibraryTest/TestResults/coverage/**/*.xml" -t ${{ secrets.CODECOV_TOKEN }}
         codecov -v -f coverage.cobertura.xml -t ${{ secrets.CODECOV_TOKEN }}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings\": {": null,
+  "indentation": {
+    "indentationSize": 4,
+    "useTabs": false
+  },
+  "documentationRules": {
+    "companyName": "Tethys",
+    "xmlHeader": true,
+    "copyrightText": "  Copyright (C) 2020 T. Graf"
+  }
+}

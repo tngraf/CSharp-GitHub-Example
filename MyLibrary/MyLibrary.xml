@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:MyLibrary.LibraryException">
+            <summary>
+            Base exception for operations.
+            </summary>
+            <seealso cref="T:System.Exception" />
+        </member>
+        <member name="M:MyLibrary.LibraryException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyLibrary.LibraryException"/> class.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.LibraryException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyLibrary.LibraryException"/> class.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+        <member name="M:MyLibrary.LibraryException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyLibrary.LibraryException"/> class.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception,
+            or a null reference (<see langword="Nothing" /> in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="T:MyLibrary.MyLibraryCore">
+            <summary>
+            A very simple mathematical demo library.
+            </summary>
+        </member>
+        <member name="M:MyLibrary.MyLibraryCore.OperationAdd(System.Int32,System.Int32)">
+            <summary>
+            Add two integer values.
+            </summary>
+            <param name="a">First operand.</param>
+            <param name="b">Second operand.</param>
+            <returns>The addition result.</returns>
+        </member>
+        <member name="M:MyLibrary.MyLibraryCore.OperationSubtract(System.Int32,System.Int32)">
+            <summary>
+            Subtract two integer values.
+            </summary>
+            <param name="a">First operand.</param>
+            <param name="b">Second operand.</param>
+            <returns>The subtraction result.</returns>
+        </member>
+        <member name="M:MyLibrary.MyLibraryCore.OperationMultiply(System.Int32,System.Int32)">
+            <summary>
+            Multiply two integer values.
+            </summary>
+            <param name="a">First operand.</param>
+            <param name="b">Second operand.</param>
+            <returns>The multiplication result.</returns>
+        </member>
+        <member name="M:MyLibrary.MyLibraryCore.OperationDivide(System.Int32,System.Int32)">
+            <summary>
+            Divide two integer values.
+            </summary>
+            <param name="a">First operand.</param>
+            <param name="b">Second operand.</param>
+            <returns>The division result.</returns>
+        </member>
+    </members>
+</doc>

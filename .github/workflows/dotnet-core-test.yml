@@ -26,4 +26,4 @@ jobs:
     - name: Test
       run: |
         dotnet test --no-restore --verbosity normal --collect:"XPlat Code Coverage"
-        codecov -f "MyLibraryTest\TestResultscoverage/**/*.xml" -t ${{ secrets.CODECOV_TOKEN }}
+        codecov -v -f "MyLibraryTest/TestResultscoverage/**/*.xml" -t ${{ secrets.CODECOV_TOKEN }}
